@@ -1,0 +1,8 @@
+.selected{
+    color: rgb(4, 123, 202);
+    cursor: pointer;
+}
+
+.unselect{
+    cursor: pointer;
+}

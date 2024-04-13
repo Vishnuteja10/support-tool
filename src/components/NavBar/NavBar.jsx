@@ -6,7 +6,7 @@ import user3 from '../../assets/images/user3.png'
 
 export default function NavBar() {
     return (
-        <div className='flex align-middle justify-between w-1/2'>
+        <div className='flex align-middle justify-between w-11/12 sm:w-1/2 fixed '>
             <div>
                 <img src={logo}></img>
             </div>

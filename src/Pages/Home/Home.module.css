@@ -1,5 +1,18 @@
 .main{
         background: linear-gradient(to bottom right, #001f3f,#01376d,#0355a7, #0074D9, #6bd0f8, #FFFFFF);
+        background-size: 100% 60%;
+        background-repeat: no-repeat;
         width: 100vw;
-        height: 50vh;
+        height: 90vh;
+        overflow-y: scroll;
+}
+
+.body{
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+        height: 60vh;
+    }
 }
