@@ -4,6 +4,16 @@
 
 .main{
     height: 73vh;
+   
+}
+
+.content{
+    overflow: scroll;
+    height: 50vh;
+}
+
+.content::-webkit-scrollbar{
+    visibility: hidden;
 }
 
 
@@ -15,6 +25,7 @@
     justify-content: space-between;
     background: linear-gradient(to bottom right, #001f3f,#01376d,#0355a7, #0074D9, #6bd0f8, #FFFFFF);
     height: 10vh;
+    
 }
 
 .footerContainer{
@@ -25,7 +36,11 @@
 
 @media only screen and (max-width: 768px) {
     .main{
-        height: 60vh;
+        height: 40vh;
+    }
+
+    .content{
+        height: 25vh;
     }
 
     .navbarContainer{

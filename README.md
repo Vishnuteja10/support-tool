@@ -4,6 +4,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+I have used tailwind css in this project please set up tailwind css first , in order to set up this projec
+
+[follow this guide to set up tailwind css in react app](https://tailwindcss.com/docs/guides/create-react-app)
+
+I have used fontawsome for icons , so need to install fontawsome packages for react to set up this project
+
+[follow this guide to set up fontawsome package in react app](https://docs.fontawesome.com/web/use-with/react/)
+
 In the project directory, you can run:
 
 ### `npm start`
